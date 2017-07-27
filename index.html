@@ -1,0 +1,74 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta name="author" content="Michiel Vandewalle">
+    <title>Mialchimp form submit vanillaJS</title>
+
+    <style>
+        body {
+            padding: 24px;
+            background-color: #d1dde0;
+            font-family: system, -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif;;
+        }
+        main {
+            background-color: #ffffff;
+            margin: 80px auto;
+            padding: 48px;
+            max-width: 340px;
+        }
+        label {
+            font-size: 14px;
+        }
+        input {
+            display: block;
+            width: 100%;
+            margin-top: 5px;
+            margin-bottom: 16px;
+            padding: 4px 10px;
+        }
+        p {
+            font-size: 14px;
+            color: #343434;
+        }
+    </style>
+
+</head>
+
+<body>
+<main>
+
+    <form action="http://XXX-URL-XXX.XXX.list-manage.com/subscribe/post?u=XXXXXXXXXXXXXXXXXXXXXXXX&amp;id=XXXXXXXXXX&amp;c=callback" method="post" target="_blank" novalidate>
+        <h2>Subscribe to our mailing list</h2>
+        <div id="js-form-inputs">
+            <div>
+                <label for="mce-EMAIL">Email Address<sup>*</sup></label>
+                <input type="email" name="EMAIL" id="mce-EMAIL" value="" placeholder="Email">
+            </div>
+            <div>
+                <label for="mce-FNAME">First Name </label>
+                <input type="text" name="FNAME" id="mce-FNAME" value="" placeholder="First name">
+            </div>
+            <div>
+                <label for="mce-LNAME">Last Name </label>
+                <input type="text" name="LNAME" id="mce-LNAME" value="" placeholder="Last name">
+            </div>
+        </div>
+
+        <!-- honeypot -->
+        <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" id="js-validate-robot" name="XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX" tabindex="-1" value=""></div>
+
+        <!-- submit -->
+        <button type="submit" name="subscribe" id="mc-embedded-subscribe">Subscribe</button>
+
+        <!-- response -->
+        <p id="js-subscribe-response"></p>
+    </form>
+
+</main>
+
+<script src="app.js"></script>
+</body>
+</html>
