@@ -57,3 +57,6 @@ workspace.xml
 
 # ENV #
 .env
+
+# ENV exclude test file #
+test.html
