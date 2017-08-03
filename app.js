@@ -18,7 +18,7 @@
 
         // Add form data to object
         var data = '';
-        var inputs = document.querySelectorAll('#js-form-inputs input');
+        var inputs = this.querySelectorAll('#js-form-inputs input');
         for (var i = 0; i < inputs.length; i++) {
             data += '&' + inputs[i].name + '=' + encodeURIComponent(inputs[i].value);
         }
