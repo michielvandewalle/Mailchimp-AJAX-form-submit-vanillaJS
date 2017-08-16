@@ -2,7 +2,7 @@
 
 Only 0.3KB 
 
-Subscribe to a mailchimp newsletter list. Lightweight and easy to implement.
+Subscribe to a mailchimp newsletter list. Lightweight and easy to implement. Here is a [Codepen example](https://codepen.io/michielvandewalle/pen/oeoMXg "Codepen")
 
 ### HTML
 The required form fields for mailchimp such as the email, need to be wrapped in the container with id `#js-form-inputs`
@@ -38,4 +38,5 @@ Change the endpoint of the form action to your mailchimp newsletter list. You ca
 ```
 
 ### Example
+Check out [Codepen example](https://codepen.io/michielvandewalle/pen/oeoMXg "Codepen")
 ![Mailchimp newsletter subscribe with](https://d26dzxoao6i3hh.cloudfront.net/items/3g0W0u0y0o2b0c2Q0l27/Screen%20Recording%202017-07-27%20at%2005.56%20PM.gif?v=0cae79bf "Mailchimp subscribe")
